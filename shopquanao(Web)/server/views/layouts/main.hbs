@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^3/dist/tailwind.min.css">
+  </head>
+  <body class="bg-gray-50 text-gray-900">
+    <header class="bg-white border-b py-4">
+      <div class="container mx-auto flex items-center justify-between px-4">
+        <div class="font-extrabold text-xl">MODA<span class="text-gray-500">.vn</span></div>
+        <nav class="space-x-4 text-sm text-gray-600">
+          <a href="/">Trang chủ</a>
+          <a href="/catalog">Danh mục</a>
+          <a href="/cart">Giỏ hàng</a>
+          <a href="/contact">Liên hệ</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+      {{{body}}}
+    </main>
+
+    <footer class="border-t py-6 text-center text-sm text-gray-600">
+      © {{year}} MODA.vn • Built with Express + Handlebars
+    </footer>
+  </body>
+</html>
