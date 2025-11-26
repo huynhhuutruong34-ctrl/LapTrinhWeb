@@ -8,7 +8,7 @@ $products = $stmt->fetchAll();
 
 require 'includes/header.php';
 ?>
-
+yg'n
 <section style="padding: 2rem 0;">
     <h1 style="font-size: 2rem; margin-bottom: 2rem;">Tất cả sản phẩm</h1>
     
